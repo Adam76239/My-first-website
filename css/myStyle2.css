@@ -1,0 +1,93 @@
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+}
+
+/*header text style*/
+#heading1 {
+    text-align: center; 
+    color: rgb(226, 97, 21); 
+    font: italic small-caps bold 65px/70px Georgia, serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* element styles */
+
+button{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+p{
+    text-align:left;
+    color: rgb(255, 255, 255);
+}
+
+h4{
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+li{text-align:left;
+    color: rgb(255, 255, 255);
+}
+
+
+/* class styles */
+
+.picture1{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    height: 45.5%;
+    width: 25%;
+    object-fit: cover;
+}
+
+.picture2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 43%;
+    width: 25%;
+    object-fit: cover;
+}
+
+.picture3{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    height: 45.5%;
+    width: 25%;
+    object-fit: cover;
+}
+
+.picture4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 43%;
+    width: 25%;
+    object-fit: cover;
+}
+
+.center {
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    min-height: 500px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+  }
+  
