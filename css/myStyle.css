@@ -34,7 +34,8 @@
 		background-color: rgba(0, 0, 0, 0.4);
 		width: 225px;
 		height: 475px;
-		display:table-cell;
+		display: table-cell;
+		position: relative;
 	}
 
 	/*side menu font*/
@@ -69,4 +70,3 @@
 	.img1 {
 		width:32px;height:32px;margin:0px 20px;
 	}
-
