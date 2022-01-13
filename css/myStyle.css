@@ -60,7 +60,7 @@
 
 	/*footer style*/
 	.div3 {
-		position: absolute;
+		position: sticky;
 		text-align: center;
 		background-color:rgb(0, 0, 0);
 		padding: 10px;
