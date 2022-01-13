@@ -1,22 +1,22 @@
 
 
 
-	body {
+
+
+	#container {
+		min-height:100%;
+		position:relative;
 		background-image: url("../img/50cal.jpg");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-        background-position: center;
+		background-position: center;
 		background-size: 100% 100%;
 	}
 
-
-
-
 	/*header style*/
-	.div1 {
+	#header {
 		background-color: rgb(0, 0, 0);
-		width: 100%;
-		height: 100px;
+		padding: 10px;
 	}
 
 	/*header font*/
@@ -26,18 +26,20 @@
 		font: italic small-caps bold 65px/70px Georgia, serif;
 	}
 
-
-
+	#body {
+		margin:0;
+   		padding:0;
+   		height:100%;
+	}
 
 	/*side menu style*/
-	.div2 {
+	.div1 {
 		background-color: rgba(0, 0, 0, 0.4);
 		width: 225px;
-		height: 415px;
-		vertical-align: middle;
+		height: 475px;
 		display:table-cell;
 	}
-	  
+
 	/*side menu font*/
 	.a1 {
 		color:rgb(0, 0, 0);
@@ -55,15 +57,14 @@
 		text-decoration:none;
 	}
 
-
-	
-
 	/*footer style*/
-	.div3 {
-		position: sticky;
+	#footer {
+		position: absolute;
+		bottom: 0;
 		text-align: center;
 		background-color:rgb(0, 0, 0);
-		padding: 10px;
+		height:50px;
+		padding: 5px;
 		width: 100%;
 	}
 
